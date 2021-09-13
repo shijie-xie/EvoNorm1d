@@ -34,7 +34,7 @@ def group_std(x, groups=32, eps=1e-5):
     return torch.reshape(torch.sqrt(var + eps), (N, C, H))
 
 
-class EvoNorm2D(nn.Module):
+class EvoNorm1D(nn.Module):
     def __init__(
         self,
         input,
