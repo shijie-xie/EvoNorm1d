@@ -1,3 +1,18 @@
+# Add EvoNorm1d by Xie, 2021
+
+## Usage: 
+
+```
+from evonorm1d import EvoNorm1D
+# For B0 version
+evoB0 = EvoNorm1D(input, affine = True, version = 'B0', training = True)
+
+# For S0 version 
+evoS0 = EvoNorm1D(input)
+```
+
+
+
 # Evolving Normalization-Activation Layers
 
 *Google AI and DeepMind*
